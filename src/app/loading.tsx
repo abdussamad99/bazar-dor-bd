@@ -1,4 +1,5 @@
 import { ProgressCircle } from "@heroui/react";
+import React from "react";
 
 const loading = () => {
   return (
