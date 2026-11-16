@@ -3,12 +3,12 @@ import Image from "next/image";
 import heroImage from "@/assets/bazar-hero.png";
 
 const HeroSection = () => {
-  // const formattedDate = new Date().toLocaleDateString("bn-BD", {
-  //   weekday: "long",
-  //   day: "numeric",
-  //   month: "long",
-  //   year: "numeric",
-  // });
+  const formattedDate = new Date().toLocaleDateString("bn-BD", {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
 
   return (
     <section className="bg-[#f8fafc] py-8 px-4 sm:px-6 lg:px-8">
@@ -20,7 +20,7 @@ const HeroSection = () => {
           <div className="flex-1 text-center md:text-left">
             {/* Badge */}
             <span className="inline-block bg-green-50 text-green-700 font-semibold text-xs px-3 py-1.5 rounded-md mb-4">
-              স্বাগতম, 
+              স্বাগতম,
             </span>
 
             {/* Heading */}

@@ -6,7 +6,7 @@ import HeroSection from '@/Components/Hero';
 
 
 
-const page = () => {
+const Page = () => {
   return (
     <div>
      <HeroSection />
@@ -17,4 +17,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
