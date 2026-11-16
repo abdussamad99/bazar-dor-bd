@@ -20,12 +20,12 @@ export default function Navbar() {
    const pathname = usePathname();
   const [categories, setcategories] = useState<Icategory[]>([]);
 
-  const formattedDate = new Date().toLocaleDateString("bn-BD", {
-    weekday: "long",
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
+  // const formattedDate = new Date().toLocaleDateString("bn-BD", {
+  //   weekday: "long",
+  //   day: "numeric",
+  //   month: "long",
+  //   year: "numeric",
+  // });
 
  useEffect(() => {
     const fetchCategories = async () => {
@@ -63,7 +63,7 @@ export default function Navbar() {
               <span role="img" aria-label="calendar">
                 🗓️
               </span>
-              <span>{formattedDate}</span>
+              {/* <span>{formattedDate}</span> */}
             </div>
           </div>
 

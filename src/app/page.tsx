@@ -1,12 +1,18 @@
 
-import Marquee from '@/Components/Marquee';
+import AllProduct from '@/Components/AllProduct';
+import FareDecreaseSection from '@/Components/FareDecreaseSection';
+import FareIncreaseSection from '@/Components/FareIncreaseSection';
+import HeroSection from '@/Components/Hero';
+
 
 
 const page = () => {
   return (
     <div>
-      {/* <Marquee /> */}
-      <h1>this is auhentication</h1>
+     <HeroSection />
+     <FareIncreaseSection />
+     <FareDecreaseSection />
+     <AllProduct />
     </div>
   );
 };
