@@ -20,7 +20,7 @@ const HeroSection = () => {
           <div className="flex-1 text-center md:text-left">
             {/* Badge */}
             <span className="inline-block bg-green-50 text-green-700 font-semibold text-xs px-3 py-1.5 rounded-md mb-4">
-              স্বাগতম,
+              স্বাগতম, {formattedDate}
             </span>
 
             {/* Heading */}
