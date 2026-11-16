@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/Components/Navbar";
 import Marque from "../Components/Marquee";
 import { Toaster } from "react-hot-toast";
+import FooterSection from "@/Components/FooterSection";
 
 const bangalifont = Noto_Serif_Bengali({
 
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Navbar/>
        <Marque/>
         {children}
+        <FooterSection/>
         <Toaster position="top-center" />
         </body>
     </html>
