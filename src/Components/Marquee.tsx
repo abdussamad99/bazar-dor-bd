@@ -1,6 +1,4 @@
 "use client";
-
-import React from "react";
 import Marquee from "react-fast-marquee";
 import { Chip } from "@heroui/react";
 import Link from "next/link";
@@ -106,7 +104,7 @@ const LIVE_FARES = [
       dir: "down",
       pct: "-6.2%",
     },
-  }, // 👈 এই কমাটি নিশ্চিত করুন
+  }, 
   {
     id: 11,
     nameBn: "পেঁয়াজ",

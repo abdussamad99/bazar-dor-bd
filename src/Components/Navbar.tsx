@@ -1,13 +1,10 @@
-
 "use client";
-
 import React, { use, useEffect, useState } from "react";
 import logo from "@/assets/logo-icon.png";
 import {
   Avatar,
   Button,
   Dropdown,
-  Label,
   ProgressCircle,
   Separator,
 } from "@heroui/react";
@@ -35,11 +32,6 @@ export default function Navbar() {
     }
     fetchCategories();
  }, []);
-
-
-
-
-
   const { data, isPending } = useSession();
   const handleSignOut = async () => {
     await signOut();

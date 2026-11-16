@@ -3,6 +3,7 @@ import {Noto_Serif_Bengali} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Components/Navbar";
 import Marque from "../Components/Marquee";
+import { Toaster } from "react-hot-toast";
 
 const bangalifont = Noto_Serif_Bengali({
 
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Navbar/>
        <Marque/>
         {children}
+        <Toaster position="top-center" />
         </body>
     </html>
   );

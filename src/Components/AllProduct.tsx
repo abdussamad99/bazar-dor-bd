@@ -1,7 +1,6 @@
 "use client";
-
 import ProductCard from "@/Components/ProductCard";
-import type { Iproduct } from "@/types/type"; // ✅ শুধু Iproduct
+import type { Iproduct } from "@/types/type";
 import React, { useEffect, useState } from "react";
 
 const AllProduct = () => {
@@ -31,7 +30,7 @@ const AllProduct = () => {
           <div className="flex flex-col items-start gap-2">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <span>সব পণ্য</span>
-              <span className="text-xl sm:text-2xl">📦</span> {/* ✅ আইকন পরিবর্তন */}
+              <span className="text-xl sm:text-2xl">📦</span> 
             </h2>
             <p className="text-sm text-slate-500 font-medium">
               মোট {products.length}টি পণ্য দেখানো হচ্ছে

@@ -1,5 +1,4 @@
 "use client";
-
 import { updateUser, useSession } from "@/lib/auth-client";
 import {
   Button,
@@ -10,7 +9,6 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
-import { router } from "better-auth/api";
 import { ArrowLeft, Mail, User, Check, Loader2 } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -115,8 +113,6 @@ const UpdateProfilePage = () => {
                 </span>
                 <FieldError className="text-xs text-red-500" />
               </TextField>
-
-              {/* Status Messages */}
 
               {/* Submit Button */}
               <Button

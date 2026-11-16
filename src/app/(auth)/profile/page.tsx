@@ -1,15 +1,11 @@
 import { auth } from "@/lib/auth";
-import { Label, ProgressBar } from "@heroui/react";
 import { headers } from "next/headers";
 import {
-  HiOutlineUser,
   HiOutlineMail,
-  HiOutlineLogout,
   HiOutlinePencilAlt,
   HiOutlineShieldCheck,
   HiOutlineArrowLeft,
 } from "react-icons/hi";
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
