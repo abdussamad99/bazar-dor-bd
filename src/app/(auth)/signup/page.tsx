@@ -21,7 +21,7 @@ export default function SignUpPage() {
   const [passwordError, setPasswordError] = useState("");
   const router = useRouter();
 
-    const handleSubmit = async (e: React.SyntheticEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
     setPasswordError("");
 
@@ -45,8 +45,8 @@ export default function SignUpPage() {
     }
 
     if (resData?.user) {
-      toast.success("অ্যাকাউন্ট সফলভাবে তৈরি হয়েছে!");
-       router.push("/");
+      toast.success("Account Created Successfully, Login to continue");
+      router.push("/signin");
     }
   };
 
@@ -84,7 +84,7 @@ export default function SignUpPage() {
               className="flex flex-col gap-1.5 w-full"
             >
               <Label className="text-xs sm:text-sm font-medium text-slate-700">
-              নাম
+                নাম
               </Label>
               <div className="relative flex items-center">
                 <User
@@ -243,7 +243,7 @@ export default function SignUpPage() {
           </p>
 
           <Link
-            href="/signin"
+            href="/"
             className="flex items-center gap-1.5 text-slate-400 hover:text-slate-600 transition-colors text-xs"
           >
             <ArrowLeft size={14} />

@@ -23,14 +23,14 @@ const AllProduct = () => {
   }, []);
 
   return (
-    <section id="all-product" className="w-full py-12 bg-[#f8fafc]">
+    <section id="all-products" className="w-full py-12 bg-[#f8fafc]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         {/* Header Section */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-2 mb-7">
           <div className="flex flex-col items-start gap-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 flex items-center gap-2">
               <span>সব পণ্য</span>
-              <span className="text-xl sm:text-2xl">📦</span> 
+              <span className="text-xl sm:text-2xl">📦</span>
             </h2>
             <p className="text-sm text-slate-500 font-medium">
               মোট {products.length}টি পণ্য দেখানো হচ্ছে
