@@ -243,7 +243,7 @@ export default function SignUpPage() {
           </p>
 
           <Link
-            href="/"
+            href="/signin"
             className="flex items-center gap-1.5 text-slate-400 hover:text-slate-600 transition-colors text-xs"
           >
             <ArrowLeft size={14} />

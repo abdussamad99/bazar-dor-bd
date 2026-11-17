@@ -35,7 +35,7 @@ const HeroSection = () => {
 
             {/* Button */}
             <Link
-              href="/all-products"
+              href="/#all-products"
               className="inline-block bg-[#0f9d58] text-white font-semibold px-8 py-3 rounded-lg hover:bg-[#05893E] transition-colors duration-200"
             >
               সব পণ্য দেখুন
